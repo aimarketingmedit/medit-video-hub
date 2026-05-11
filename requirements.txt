@@ -1,0 +1,6 @@
+gradio>=4.44.0
+yt-dlp>=2024.8.6
+babel>=2.14.0
+google-api-python-client>=2.100.0
+google-auth>=2.20.0
+google-auth-httplib2>=0.1.0

@@ -1,0 +1,32 @@
+# Service Account JSON keys - 절대 커밋 금지
+*.json
+!package.json
+!package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# 임시 파일
+/tmp/
+tmp/
+*.mp4
+*.srt
+*.log
+
+# 폰트 디렉토리 안의 mp4/srt 같은 부산물만 제외 (otf/ttf은 포함)
+fonts/*.mp4
+fonts/*.srt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
